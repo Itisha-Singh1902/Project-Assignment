@@ -6,7 +6,7 @@ function App() {
   const [data,setData] = useState([]);
   useEffect(()=>{
     const getData = async () =>{
-      const response = await axios.get(`http://localhost:8000`);
+      const response = await axios.get(`https://project-assignment-blush.vercel.app/`);
       setData(response.data);
     }
     getData(); 
