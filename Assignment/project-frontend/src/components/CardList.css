@@ -1,0 +1,76 @@
+.row{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 10px;
+    align-items: left;
+}
+.inputBox{
+    width :20vw;
+    border:solid rgb(0, 0, 0) 1px;
+    border-radius:5px;
+    height:30px;
+    padding:5px;
+}
+.App{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-wrap:wrap;
+    overflow:auto;
+}
+.appBox{
+    width:100vw;
+    height:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.projectDetail{
+    width:100vw;
+    height:100vh;
+    background-color:rgba(0,0,0,0.2);
+    position:absolute;
+    right:0;
+}
+.inProjectDetail{
+    position:absolute;
+    right:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:flex-start;
+    width:30vw;
+    height:100vh;
+    box-shadow:10px 10px 5px 12px rgba(0,0,0,0.2);
+    background-color:white;
+    border-width:1px;
+}
+.box{
+    width:90%;
+    height:80%;
+    margin-left:20px;
+    padding-bottom:13%;
+}
+.projectBox{
+    width:100%;
+    height:15%;
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+.headText{
+    font-size:19px;
+    margin:0;
+    font-weight:450;
+    color:#202020;
+}
+.innerText{
+    font-size:20px;
+    margin:0;
+    padding-top:18px;
+}
+.icon{
+    width:20px;
+    padding-right:10px;
+}
